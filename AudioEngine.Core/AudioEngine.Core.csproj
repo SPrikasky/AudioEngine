@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>AudioEngine.Core</AssemblyName>
+    <RootNamespace>AudioEngine.Core</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>High-performance, low-latency audio engine for C# games</Description>
+    <Authors>AudioEngine Contributors</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
